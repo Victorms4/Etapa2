@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0FFFF"
+    android:orientation="vertical"
+    tools:context="com.example.etapa2.Fragmento2">
+
+    <Button
+        android:id="@+id/btnHoje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hoje" />
+
+    <Button
+        android:id="@+id/btnOutraData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OutraData" />
+
+    <TextView
+        android:id="@+id/texto_frg2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Olá fragmento em branco 2" />
+
+</LinearLayout>
